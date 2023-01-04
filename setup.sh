@@ -20,6 +20,9 @@ fi
 # Add fonts to home directory
 sudo cp -r font/Fira_Code_v6.2 font/MesloLGS-NF ~/.fonts
 
+# Update font cache
+fc-cache -rv
+
 # Setup terminal
 ./configure_termianl.sh
 
