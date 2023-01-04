@@ -4,10 +4,6 @@ sudo apt install zsh
 # Change shell to zsh
 chsh -s /usr/bin/zsh
 
-# Log out and and login to terminal
-echo $SHELL
-/usr/bin/zsh
-
 # Install oh my zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
