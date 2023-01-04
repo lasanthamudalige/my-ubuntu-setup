@@ -5,14 +5,10 @@ sudo apt update && sudo apt install ubuntu-restricted-extras git curl vlc build-
 curl -sL https://raw.githubusercontent.com/wimpysworld/deb-get/main/deb-get | sudo -E bash -s install deb-get
 
 # Install software from deb-get
-echo '1' | sudo deb-get install google-chrome-stable code spotify-client
+sudo deb-get install google-chrome-stable code spotify-client
 
 # Download and install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 # Create a font directory inside home
 DIR=~/.fonts
