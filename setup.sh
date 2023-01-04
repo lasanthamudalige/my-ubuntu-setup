@@ -18,7 +18,7 @@ export NVM_DIR="$HOME/.nvm"
 '\n\n\n' | ./generate_new_ssh_key.sh
 
 # Create a font directory inside home
-mkdir .fonts
+mkdir ~/.fonts
 
 # Add fonts to home directory
 sudo cp -r font/Fira_Code_v6.2 font/MesloLGS-NF ~/.fonts
