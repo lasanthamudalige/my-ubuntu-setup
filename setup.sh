@@ -16,3 +16,9 @@ export NVM_DIR="$HOME/.nvm"
 
 # Generate new ssh key for github
 '\n\n\n' | ./generate_new_ssh_key.sh
+
+# Create a font directory inside home
+mkdir .fonts
+
+# Add fonts to home directory
+sudo cp -r font/Fira_Code_v6.2 font/MesloLGS-NF ~/.fonts
