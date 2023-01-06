@@ -1,5 +1,5 @@
 # Refresh repos and install git, curl, vlc, ubuntu-restricted-extras and build-essential
-sudo apt update && sudo apt install ubuntu-restricted-extras vim curl gnome-clocks gnome-boxes gnome-notes vlc build-essential python3-pip python3-tk -y # Enter 'y' to download
+sudo apt update && sudo apt install ubuntu-restricted-extras vim curl gnome-clocks gnome-boxes gnome-notes gnome-dictionary vlc build-essential python3-pip python3-tk -y # Enter 'y' to download
 
 # Install deb-get
 curl -sL https://raw.githubusercontent.com/wimpysworld/deb-get/main/deb-get | sudo -E bash -s install deb-get
