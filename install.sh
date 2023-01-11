@@ -8,7 +8,7 @@ curl -sL https://raw.githubusercontent.com/wimpysworld/deb-get/main/deb-get | su
 sudo deb-get install google-chrome-stable code spotify-client
 
 # Download and install nvm
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
 # Create a font directory inside home
 DIR=~/.fonts
