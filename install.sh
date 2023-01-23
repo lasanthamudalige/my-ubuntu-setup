@@ -28,4 +28,4 @@ sudo cp -r font/Fira_Code_v6.2 font/MesloLGS-NF ~/.fonts
 fc-cache -rv
 
 # Generate new ssh key for github
-echo | ./generate_new_ssh_key.sh # Press enter to 3 questions after creating ssh key
+./generate_new_ssh_key.sh 
