@@ -1,6 +1,3 @@
-# Download and install nvm
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
-
 # Refresh repos and install git, curl, vlc, ubuntu-restricted-extras and build-essential
 sudo apt update && sudo apt install ubuntu-restricted-extras vim curl gnome-clocks gnome-dictionary vlc build-essential python3-pip python3-tk tlp -y # Enter 'y' to download
 
