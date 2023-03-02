@@ -23,7 +23,7 @@
   - Install google-chrome, visual studio code and spotify using deb-get package manager
   - Add Fira code and MesloLGS Nerd Font to the system
 
-## generate_new_ssh_key.sh
+## Generate_new_ssh_key.sh
   - This will generate a ssh key for github
     
 ## Custom changes
@@ -37,7 +37,7 @@
   
   - Install fish shell ***(If you didn't run the script)***
       ```
-      sudo pacman -S fish
+      sudo apt install fish
       ```
       
   - Change shell to fish
@@ -47,7 +47,7 @@
 
 ### Linux mint  
 
-  - To change cursor theme
+  - To change cursor theme in flatpak apps
     ```
     sudo update-alternatives --config x-cursor-theme
     ```
