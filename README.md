@@ -6,6 +6,7 @@
     - deb-get package manager  
     - ubuntu-restricted-extras
     - fish shell
+    - kitty terminal
     - htop
     - neofetch
     - vim
@@ -27,8 +28,13 @@
     
 ## Custom changes
 
-### Change shell to fish
+### Add kitty.conf file to ~/.config/kitty
+  ```
+  sudo mv kitty.conf ~/.config/kitty
+  ```
 
+### Change shell to fish
+  
   - Install fish shell ***(If you didn't run the script)***
       ```
       sudo pacman -S fish
