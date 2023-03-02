@@ -1,5 +1,9 @@
 # A script to auto install necessay apps in ubuntu
 
+## Table of content
+* [Custom changes](#custom-changes)
+* [Programming stuff](#programming-stuff)
+
 ## Install.sh 
   - This script will install 
     - nvm (node version manager) 
@@ -44,6 +48,11 @@
       ```
       chsh -s /usr/bin/fish
       ```
+   
+### Start tlp (On laptops)
+  ```
+  sudo tlp start
+  ```
 
 ### Linux mint  
 
