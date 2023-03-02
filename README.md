@@ -51,6 +51,15 @@
     ```
     sudo update-alternatives --config x-cursor-theme
     ```
+    
+  - Disable bluetooth on startup
+    
+    - Open bluetooth main file
+      ```
+      sudo vim /etc/blutooth/main.conf
+      ```
+    
+    - ***Go to the bottom and set "AutoEnable" to False***
 
 ## Programming stuff
 
