@@ -5,6 +5,8 @@
     - nvm (node version manager) 
     - deb-get package manager  
     - buntu-restricted-extras
+    - htop
+    - neofetch
     - vim
     - git
     - curl
