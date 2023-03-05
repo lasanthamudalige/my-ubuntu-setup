@@ -10,7 +10,6 @@
     - deb-get package manager  
     - ubuntu-restricted-extras
     - fish shell
-    - kitty terminal
     - htop
     - neofetch
     - vim
