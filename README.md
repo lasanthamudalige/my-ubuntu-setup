@@ -48,10 +48,15 @@
       chsh -s /usr/bin/fish
       ```
    
-### Start tlp (On laptops)
+### Install tlp (On laptops)
   ```
-  sudo tlp start
+  sudo apt install tlp
   ```
+  
+  - Start tlp
+    ```
+    sudo tlp start
+    ```
 
 ### Linux mint  
 
