@@ -11,7 +11,7 @@ sudo apt update && sudo apt install ubuntu-restricted-extras fish htop neofetch 
 sudo apt remove power-profiles-daemon
 
 # Install software from deb-get
-sudo deb-get install google-chrome-stable code spotify-client
+sudo deb-get install brave-browser code spotify-client obs-studio
 
 # Install JetbrainsMono NerdFont
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
