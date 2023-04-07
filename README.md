@@ -12,7 +12,7 @@
     - fish shell
     - htop
     - neofetch
-    - vim
+    - neovim
     - git
     - curl
     - gnome-clocks
