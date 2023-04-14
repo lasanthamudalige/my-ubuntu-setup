@@ -21,7 +21,6 @@
     - build-essential
     - python3-pip
     - python3-tk
-    - tlp (For laptops)
   - Remove default power manager (prower profile deamon)
   - Install google-chrome, visual studio code and spotify using deb-get package manager
   - Add Fira code and MesloLGS Nerd Font to the system
