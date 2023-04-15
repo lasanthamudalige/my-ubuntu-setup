@@ -68,7 +68,7 @@
     
     - Open bluetooth main file
       ```
-      sudo vim /etc/blutooth/main.conf
+      sudo vi /etc/blutooth/main.conf
       ```
     
     - ***Go to the bottom and set "AutoEnable" to False***
