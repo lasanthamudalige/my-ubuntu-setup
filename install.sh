@@ -14,7 +14,7 @@ sudo apt update && sudo apt install ubuntu-restricted-extras fish htop neofetch 
 sudo deb-get install brave-browser code 
 
 # Install flatpak apps
-flatpak install flatsealg tangram blanket
+flatpak install flatseal tangram blanket
 
 # Install JetbrainsMono NerdFont
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
