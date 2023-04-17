@@ -6,34 +6,33 @@
 
 ## Install.sh 
   - This script will install 
-    - nvm (node version manager) 
-    - deb-get package manager  
-    - ubuntu-restricted-extras
-    - fish shell
-    - htop
-    - neofetch
-    - neovim
-    - git
-    - curl
-    - gnome-clocks
-    - gnome-dictionary 
-    - vlc
-    - build-essential
-    - python3-pip
-    - python3-tk
-  - Remove default power manager (prower profile deamon)
-  - Install google-chrome, visual studio code and spotify using deb-get package manager
-  - Add Fira code and MesloLGS Nerd Font to the system
+    - From apt
+      - NVM (node version manager) 
+      - Deb-get package manager  
+      - Ubuntu restricted extras
+      - Fish shell
+      - Htop
+      - Neofetch
+      - Neovim
+      - Git
+      - Curl
+      - Gnome-clocks
+      - Gnome-dictionary 
+      - Vlc
+      - Build Essential
+      - Python3 pip
+      - Python3 TK
+      - Spotify
+      - OBS Studio
+     - From Deb-get
+        - Brave Browser
+        - Visual Studio Code
+  - (Optional) Remove default power manager (prower profile deamon) 
 
 ## Generate_new_ssh_key.sh
   - This will generate a ssh key for github
     
 ## Custom changes
-
-### Add kitty.conf file to ~/.config/kitty
-  ```
-  sudo mv kitty.conf ~/.config/kitty
-  ```
 
 ### Change shell to fish
   
