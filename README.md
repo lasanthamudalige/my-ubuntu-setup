@@ -27,6 +27,11 @@
      - From Deb-get
         - Brave Browser
         - Visual Studio Code
+     - From Flatpak
+        - Flatseal
+        - Tangram 
+        - Blanket
+
   - (Optional) Remove default power manager (prower profile deamon) 
 
 ## Generate_new_ssh_key.sh
@@ -71,6 +76,21 @@
       ```
     
     - ***Go to the bottom and set "AutoEnable" to False***
+    
+### Change Themes of Flatpak apps using Flatseal 
+
+  - Go to All applications and add theme location
+    
+    - In Linux Mint
+      ```
+      /usr/share/themes
+      ```
+  
+  - Add GTK_THEME variable to the Environment
+    - Adwaita Dark theme
+      ```
+      GTK_THEME=Adwaita-dark
+      ```
 
 ## Programming stuff
 
