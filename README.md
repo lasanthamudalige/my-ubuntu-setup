@@ -79,15 +79,18 @@
     
 ### Change Themes of Flatpak apps using Flatseal 
 
-  - Go to All applications and add theme location
+  - Go to All applications and locate **filesystem**
     
-    - In Linux Mint
-      ```
-      /usr/share/themes
-      ```
+    - Add theme location in **Other files**
+    
+      - In Linux Mint
+        ```
+        /usr/share/themes
+        ```
   
-  - Add GTK_THEME variable to the Environment
-    - Adwaita Dark theme
+  - Add GTK_THEME variable to the **Environment**
+    
+    - Add Adwaita Dark theme
       ```
       GTK_THEME=Adwaita-dark
       ```
