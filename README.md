@@ -22,11 +22,11 @@
       - Build Essential
       - Python3 pip
       - Python3 TK
-      - Spotify
       - OBS Studio
      - From Deb-get
         - Brave Browser
         - Visual Studio Code
+        - Spotify
      - From Flatpak
         - Flatseal
         - Tangram 
