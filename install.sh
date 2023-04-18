@@ -11,7 +11,7 @@ sudo apt update && sudo apt install ubuntu-restricted-extras fish htop neofetch 
 #sudo apt remove power-profiles-daemon
 
 # Install software from deb-get
-sudo deb-get install brave-browser code 
+sudo deb-get install brave-browser code spotify-client
 
 # Install flatpak apps
 flatpak install flatseal tangram blanket
