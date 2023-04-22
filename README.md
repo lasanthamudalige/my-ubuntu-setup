@@ -72,7 +72,7 @@
     
     - Open bluetooth main file
       ```
-      sudo nano /etc/blutooth/main.conf
+      sudo nano /etc/bluetooth/main.conf
       ```
     
     - ***Go to the bottom and set "AutoEnable" to False***
