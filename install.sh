@@ -18,10 +18,10 @@ Pin-Priority: 1001
 # This to ensure firefox automatic updates
 echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codename}";' | sudo tee /etc/apt/apt.conf.d/51unattended-upgrades-firefox
 # Install firefox apt version
-sudo apt install firefox -y
+sudo apt update && install firefox -y
 
 # Refresh repos and install git, curl, vlc, ubuntu-restricted-extras and build-essential
-sudo apt update && sudo apt install ubuntu-restricted-extras fish htop neofetch neovim git curl gnome-clocks gnome-dictionary vlc build-essential python3-pip python3-tk obs-studio -y # Enter 'y' to download
+sudo apt install ubuntu-restricted-extras fish htop neofetch neovim git curl gnome-clocks gnome-dictionary vlc build-essential python3-pip python3-tk obs-studio -y # Enter 'y' to download
 
 # Remove power demon to avoid any conflict with tlp
 #sudo apt remove power-profiles-daemon
