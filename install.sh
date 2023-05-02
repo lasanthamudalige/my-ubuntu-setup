@@ -29,8 +29,12 @@ sudo apt install ubuntu-restricted-extras fish htop neofetch neovim git curl gno
 # Install software from deb-get
 sudo deb-get install brave-browser code spotify-client
 
+# Install flatpak
+# sudo apt install flatpak
+# Add the flathub respository   
+# flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 # Install flatpak apps
-flatpak install flatseal postman tangram blanket
+# flatpak install flatseal postman tangram blanket
 
 # Install JetbrainsMono NerdFont
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/JetBrains/JetBrainsMono/master/install_manual.sh)"
