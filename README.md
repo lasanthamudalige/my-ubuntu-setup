@@ -121,3 +121,13 @@
    ```
    npm install -g nodemon # or using yarn: yarn global add nodemon
    ```
+   
+### Add alias to execute custom shell scripts
+   Add this to end of the ~/.bashrc file
+   ```
+   # custom commands
+   # command to create github repos
+   alias create="~/Development/shell-scripts/create_repo.sh"
+   alias wish="~/Development/shell-scripts/wish_facebook_birthdays.sh"
+
+   ```
