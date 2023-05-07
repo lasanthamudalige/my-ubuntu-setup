@@ -127,7 +127,6 @@
    ```
    # custom commands
    # command to create github repos
-   alias create="~/Development/shell-scripts/create_repo.sh"
-   alias wish="~/Development/shell-scripts/wish_facebook_birthdays.sh"
-
+   alias create="~/Development/shell-scripts/automate_repo.sh"
+   alias wish="~/Development/shell-scripts/fb_birthday_wisher.sh"
    ```
