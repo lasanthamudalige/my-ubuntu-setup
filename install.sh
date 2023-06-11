@@ -56,7 +56,7 @@ sudo apt update
 # Install latest stable version
 sudo apt install -y mongodb-org
 # Start the mongod process 
-start the mongod process 
+sudo systemctl start mongod
 # Start MongoDB following a system reboot
 sudo systemctl enable mongod
 
