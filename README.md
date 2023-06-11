@@ -23,6 +23,7 @@
       - Python3 pip
       - Python3 TK
       - OBS Studio
+      - Sqlite3
      - From Deb-get
         - Brave Browser
         - Visual Studio Code
