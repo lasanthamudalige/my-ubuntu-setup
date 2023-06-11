@@ -59,6 +59,8 @@ sudo apt install -y mongodb-org
 sudo systemctl start mongod
 # Start MongoDB following a system reboot
 sudo systemctl enable mongod
+# Show if the MongoDB has started 
+sudo systemctl status mongod
 
 
 # # Generate github ssh key
