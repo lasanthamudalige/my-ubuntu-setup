@@ -1,3 +1,6 @@
+# Refresh repos and install git, curl, vlc, ubuntu-restricted-extras and build-essential
+sudo apt install ubuntu-restricted-extras fish htop neofetch git curl gnome-clocks gnome-dictionary vlc build-essential python3-pip python3-tk obs-studio sqlite3 -y # Enter 'y' to download
+
 # Download and install nvm
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
@@ -19,9 +22,6 @@ Pin-Priority: 1001
 echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codename}";' | sudo tee /etc/apt/apt.conf.d/51unattended-upgrades-firefox
 # Install firefox apt version
 sudo apt update && sudo apt install firefox -y
-
-# Refresh repos and install git, curl, vlc, ubuntu-restricted-extras and build-essential
-sudo apt install ubuntu-restricted-extras fish htop neofetch git curl gnome-clocks gnome-dictionary vlc build-essential python3-pip python3-tk obs-studio sqlite3 -y # Enter 'y' to download
 
 # Remove power demon to avoid any conflict with tlp
 #sudo apt remove power-profiles-daemon
