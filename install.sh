@@ -21,7 +21,7 @@ echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codenam
 sudo apt update && sudo apt install firefox -y
 
 # Refresh repos and install git, curl, vlc, ubuntu-restricted-extras and build-essential
-sudo apt install ubuntu-restricted-extras fish htop neofetch neovim git curl gnome-clocks gnome-dictionary vlc build-essential python3-pip python3-tk obs-studio sqlite3 -y # Enter 'y' to download
+sudo apt install ubuntu-restricted-extras fish htop neofetch git curl gnome-clocks gnome-dictionary vlc build-essential python3-pip python3-tk obs-studio sqlite3 -y # Enter 'y' to download
 
 # Remove power demon to avoid any conflict with tlp
 #sudo apt remove power-profiles-daemon
@@ -44,7 +44,7 @@ fc-cache -rv
 
 # Install MongoDB 6 in ubuntu  version 22.04
 # Install gnupg if it is not already available
-sudo apt install gnupg
+sudo apt install gnupg -y
 # Import MongoDb public GPG key
 curl -fsSL https://pgp.mongodb.com/server-6.0.asc | \
    sudo gpg -o /usr/share/keyrings/mongodb-server-6.0.gpg \
@@ -54,7 +54,7 @@ echo "deb [ arch=amd64,arm64 signed-by=/usr/share/keyrings/mongodb-server-6.0.gp
 # Reaload local packages
 sudo apt update
 # Install latest stable version
-sudo apt install -y mongodb-org
+sudo apt install mongodb-org -y  
 # Start the mongod process 
 sudo systemctl start mongod
 # Start MongoDB following a system reboot
