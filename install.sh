@@ -9,7 +9,8 @@ curl -sL https://raw.githubusercontent.com/wimpysworld/deb-get/main/deb-get | su
 
 # Remove firefox snap
 # Remove snap version
-sudo snap remove firefox 
+sudo snap disable firefox 
+sudo snap remove --purge firefox
 # Add firefox ppa
 sudo add-apt-repository ppa:mozillateam/ppa -y
 # Change prefrence to firefox ppa from snap
