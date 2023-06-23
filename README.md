@@ -7,7 +7,7 @@
 ## Install.sh 
   - This script will install 
     - From apt
-      - NVM (node version manager) 
+      - NVM (node version manager)
       - Deb-get package manager  
       - Ubuntu restricted extras
       - Fish shell
@@ -17,13 +17,14 @@
       - Git
       - Curl
       - Gnome-clocks
-      - Gnome-dictionary 
+      - Gnome-dictionary
       - Vlc
       - Build Essential
       - Python3 pip
       - Python3 TK
       - OBS Studio
       - Sqlite3
+      - p7zip-full, p7zip-rar
      - From Deb-get
         - Brave Browser
         - Visual Studio Code

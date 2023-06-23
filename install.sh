@@ -1,5 +1,9 @@
 # Refresh repos and install git, curl, vlc, ubuntu-restricted-extras and build-essential
-sudo apt install ubuntu-restricted-extras fish htop neofetch git curl gnome-clocks gnome-dictionary vlc build-essential python3-pip python3-tk obs-studio sqlite3 -y # Enter 'y' to download
+sudo apt install ubuntu-restricted-extras fish htop neofetch git curl gnome-clocks gnome-dictionary vlc build-essential python3-pip python3-tk sqlite3 p7zip-full p7zip-rar -y # Enter 'y' to download
+
+# Install snap version for wayland and apt for xorg
+# sudo apt install obs-studio
+sudo snap install obs-studio
 
 # Download and install nvm
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
@@ -23,8 +27,8 @@ echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codenam
 # Install firefox apt version
 sudo apt update && sudo apt install firefox -y
 
-# Remove power demon to avoid any conflict with tlp
-#sudo apt remove power-profiles-daemon
+# Remove power demon to avoid any conflict with tlp and install tlp
+#sudo apt remove power-profiles-daemon && sudo apt install tlp tlp-rdw
 
 # Install software from deb-get
 sudo deb-get install brave-browser code spotify-client
