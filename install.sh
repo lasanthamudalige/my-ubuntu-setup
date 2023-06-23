@@ -6,7 +6,7 @@ sudo apt install ubuntu-restricted-extras fish htop neofetch git curl gnome-cloc
 sudo snap install obs-studio
 
 # Download and install nvm
-wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 
 # Install deb-get
 curl -sL https://raw.githubusercontent.com/wimpysworld/deb-get/main/deb-get | sudo -E bash -s install deb-get

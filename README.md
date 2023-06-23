@@ -6,9 +6,10 @@
 
 ## Install.sh 
   - This script will install 
-    - From apt
+    - From Curl
       - NVM (node version manager)
       - Deb-get package manager  
+    - From apt
       - Ubuntu restricted extras
       - Fish shell
       - Htop
