@@ -35,7 +35,7 @@
         - Tangram 
         - Blanket
 
-  - (Optional) Remove default power manager (prower profile deamon) 
+  - (Optional) Remove default power manager 'power profile deamon' and install tlp 'On thinkpads"
 
 ## Generate_new_ssh_key.sh
   - This will generate a ssh key for github
