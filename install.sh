@@ -13,23 +13,23 @@ curl -sL https://raw.githubusercontent.com/wimpysworld/deb-get/main/deb-get | su
 
 # Remove firefox snap
 # Remove snap version
-# sudo snap disable firefox 
-# sudo snap remove --purge firefox
+sudo snap disable firefox 
+sudo snap remove --purge firefox
 # Add firefox ppa
-# sudo add-apt-repository ppa:mozillateam/ppa -y
+sudo add-apt-repository ppa:mozillateam/ppa -y
 # Change prefrence to firefox ppa from snap
-# echo '
-# Package: *
-# Pin: release o=LP-PPA-mozillateam
-# Pin-Priority: 1001
-# ' | sudo tee /etc/apt/preferences.d/mozilla-firefox
+echo '
+Package: *
+Pin: release o=LP-PPA-mozillateam
+Pin-Priority: 1001
+' | sudo tee /etc/apt/preferences.d/mozilla-firefox
 # This to ensure firefox automatic updates
-# echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codename}";' | sudo tee /etc/apt/apt.conf.d/51unattended-upgrades-firefox
+echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codename}";' | sudo tee /etc/apt/apt.conf.d/51unattended-upgrades-firefox
 # Install firefox apt version
-# sudo apt update && sudo apt install firefox -y
+sudo apt update && sudo apt install firefox -y
 
 # Remove power demon to avoid any conflict with tlp and install tlp
-#sudo apt remove power-profiles-daemon && sudo apt install tlp tlp-rdw
+sudo apt remove power-profiles-daemon -y && sudo apt install tlp tlp-rdw -y
 
 # Install software from deb-get
 sudo deb-get install brave-browser code spotify-client
