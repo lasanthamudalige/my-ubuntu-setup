@@ -29,7 +29,7 @@ echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codenam
 sudo apt update && sudo apt install firefox -y
 
 # Remove power demon to avoid any conflict with tlp and install tlp
-sudo apt remove power-profiles-daemon -y && sudo apt install tlp tlp-rdw -y
+# sudo apt remove power-profiles-daemon -y && sudo apt install tlp tlp-rdw -y
 
 # Install software from deb-get
 sudo deb-get install brave-browser code spotify-client
