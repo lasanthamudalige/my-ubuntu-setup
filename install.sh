@@ -71,3 +71,7 @@ sudo systemctl enable mongod
 # # Generate github ssh key
 BASEDIR=$(cd $(dirname $0) && pwd)
 $BASEDIR/generate_new_github_ssh_key.sh
+
+# Add custom commands to .bashrc file  
+cd ~
+printf '\n# Custom commands\n# command to create github repos\nalias create="~/Development/shell-scripts/automate_repo.sh"\nalias wish="~/Development/shell-scripts/fb_birthday_wisher.sh"' >> .bashrc
