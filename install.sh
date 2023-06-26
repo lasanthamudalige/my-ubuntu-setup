@@ -67,8 +67,7 @@ sudo systemctl enable mongod
 # Show if the MongoDB has started 
 # sudo systemctl status mongod
 
-
-# # Generate github ssh key
+# Generate github ssh key
 BASEDIR=$(cd $(dirname $0) && pwd)
 $BASEDIR/generate_new_github_ssh_key.sh
 
