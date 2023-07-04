@@ -3,7 +3,8 @@ sudo apt install ubuntu-restricted-extras fish htop neofetch git curl gnome-cloc
 
 # Install snap version for wayland and apt for xorg
 # sudo apt install obs-studio
-sudo snap install obs-studio
+sudo snap install obs-studio 
+sudo snap install postman
 
 # Download and install nvm
 curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
