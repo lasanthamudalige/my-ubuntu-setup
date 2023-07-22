@@ -15,6 +15,7 @@ curl -sL https://raw.githubusercontent.com/wimpysworld/deb-get/main/deb-get | su
 # Remove firefox snap
 # Remove snap version
 sudo snap disable firefox 
+sudo umount /var/snap/firefox/common/host-hunspell
 sudo snap remove --purge firefox
 # Add firefox ppa
 sudo add-apt-repository ppa:mozillateam/ppa -y
@@ -27,7 +28,7 @@ Pin-Priority: 1001
 # This to ensure firefox automatic updates
 echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codename}";' | sudo tee /etc/apt/apt.conf.d/51unattended-upgrades-firefox
 # Install firefox apt version
-sudo apt update && sudo apt install firefox -y
+sudo apt update && sudo apt install firefox
 
 # Remove power demon to avoid any conflict with tlp and install tlp
 # sudo apt remove power-profiles-daemon -y && sudo apt install tlp tlp-rdw -y
