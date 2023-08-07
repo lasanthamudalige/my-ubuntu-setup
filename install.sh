@@ -34,7 +34,7 @@ sudo apt update && sudo apt install firefox
 # sudo apt remove power-profiles-daemon -y && sudo apt install tlp tlp-rdw -y
 
 # Install software from deb-get
-sudo deb-get install brave-browser code spotify-client
+sudo deb-get install google-chrome-stable brave-browser code spotify-client
 
 # Install flatpak
 # sudo apt install flatpak
