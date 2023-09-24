@@ -28,7 +28,7 @@ Pin-Priority: 1001
 # This to ensure firefox automatic updates
 echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codename}";' | sudo tee /etc/apt/apt.conf.d/51unattended-upgrades-firefox
 # Install firefox apt version
-sudo apt update && sudo apt install firefox
+sudo apt update && sudo apt install firefox -y
 
 # Remove power demon to avoid any conflict with tlp and install tlp
 # sudo apt remove power-profiles-daemon -y && sudo apt install tlp tlp-rdw -y
