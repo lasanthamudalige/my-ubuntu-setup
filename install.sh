@@ -34,7 +34,7 @@ sudo apt update && sudo apt install firefox -y
 # sudo apt remove power-profiles-daemon -y && sudo apt install tlp tlp-rdw -y
 
 # Install software from deb-get
-sudo deb-get install google-chrome-stable brave-browser code spotify-client
+sudo deb-get install google-chrome-stable brave-browser code spotify-client bitwarden zoom blanket teamviewer virtualbox-7.0 
 
 # Install flatpak
 # sudo apt install flatpak
