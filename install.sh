@@ -1,5 +1,5 @@
 # Refresh repos and install git, curl, vlc, ubuntu-restricted-extras and build-essential
-sudo apt install ubuntu-restricted-extras fish htop neofetch git curl gnome-clocks gnome-dictionary vlc build-essential python3-pip python3-tk sqlite3 p7zip-full p7zip-rar -y # Enter 'y' to download
+sudo apt install ubuntu-restricted-extras fish htop neofetch git curl gnome-clocks gnome-dictionary vlc build-essential python3-pip python3-tk sqlite3 p7zip-full p7zip-rar zanshin -y # Enter 'y' to download
 
 # Install snap version for wayland and apt for xorg
 # sudo apt install obs-studio
