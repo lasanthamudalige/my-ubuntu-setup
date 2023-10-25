@@ -12,23 +12,23 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.3/install.sh | bash
 # Install deb-get
 curl -sL https://raw.githubusercontent.com/wimpysworld/deb-get/main/deb-get | sudo -E bash -s install deb-get
 
-# Remove firefox snap
-# Remove snap version
-sudo snap disable firefox 
-sudo umount /var/snap/firefox/common/host-hunspell
-sudo snap remove --purge firefox
-# Add firefox ppa
-sudo add-apt-repository ppa:mozillateam/ppa -y
-# Change prefrence to firefox ppa from snap
-echo '
-Package: *
-Pin: release o=LP-PPA-mozillateam
-Pin-Priority: 1001
-' | sudo tee /etc/apt/preferences.d/mozilla-firefox
-# This to ensure firefox automatic updates
-echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codename}";' | sudo tee /etc/apt/apt.conf.d/51unattended-upgrades-firefox
-# Install firefox apt version
-sudo apt update && sudo apt install firefox -y
+# # Remove firefox snap
+# # Remove snap version
+# sudo snap disable firefox 
+# sudo umount /var/snap/firefox/common/host-hunspell
+# sudo snap remove --purge firefox
+# # Add firefox ppa
+# sudo add-apt-repository ppa:mozillateam/ppa -y
+# # Change prefrence to firefox ppa from snap
+# echo '
+# Package: *
+# Pin: release o=LP-PPA-mozillateam
+# Pin-Priority: 1001
+# ' | sudo tee /etc/apt/preferences.d/mozilla-firefox
+# # This to ensure firefox automatic updates
+# echo 'Unattended-Upgrade::Allowed-Origins:: "LP-PPA-mozillateam:${distro_codename}";' | sudo tee /etc/apt/apt.conf.d/51unattended-upgrades-firefox
+# # Install firefox apt version
+# sudo apt update && sudo apt install firefox -y
 
 # Remove power demon to avoid any conflict with tlp and install tlp
 # sudo apt remove power-profiles-daemon -y && sudo apt install tlp tlp-rdw -y
